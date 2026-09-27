@@ -2,7 +2,7 @@
 
 论文：**Baseline-Preserving Distance-Aware Adaptive Fusion for LiDAR-Camera 3D Object Detection**
 
-作者：Jiaxin Yang、Yongbiao Li、Zhanlin Cao、Long Chen、Jinglong Wang
+作者：JiaxinYang、Yongbiao Li、Zhanlin Cao、Long Chen、Jinglong Wang
 
 [English](README.md) · [方法说明](docs/method.md) · [接入说明](docs/integration.md) · [测试记录](docs/validation.md) · [复现状态](docs/reproduction.md)
 
