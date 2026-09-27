@@ -34,7 +34,10 @@ and tensor/coordinate contracts without claiming that CUDA extensions, dataset
 pipelines or a full detector have run. Check the actual training environment
 before making detector-level compatibility or performance claims.
 
-GitHub Actions additionally defines Linux CPU checks for Python 3.10 with
-PyTorch 2.1.2 and Python 3.12 with PyTorch 2.6.0. Current results are visible in
+GitHub Actions additionally runs Linux CPU checks for Python 3.10 with
+PyTorch 2.1.2 and Python 3.12 with PyTorch 2.6.0. Both environments passed for
+commit `52ff7ca` in [the initial run](https://github.com/3079Code/BPDAF/actions/runs/36331466622),
+including lint, formatting, tests, the synthetic example, and package building.
+Results for subsequent commits are visible in
 [the workflow runs](https://github.com/3079Code/BPDAF/actions/workflows/ci.yml).
-The existence of a workflow file alone is not a passed run.
+These CPU checks do not establish full-dataset reproduction.
