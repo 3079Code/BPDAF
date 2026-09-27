@@ -9,8 +9,8 @@ Torchpack YAML files and a different detector interface.
 
 **Validation status:** the host interfaces, initialization path, feature order
 and spatial indexing were checked by static inspection of that official commit.
-Full MMDetection3D/CUDA installation, detector training and dataset evaluation
-have not been run for this new implementation. The example inherits the
+For maintainer-reported dataset reproduction, see [the validation record](validation.md).
+The adapter tests in this repository use a mocked registry. The example inherits the
 upstream six-epoch fusion schedule; it is not the manuscript's recovered
 24-epoch training configuration or a reproduction of its reported metrics.
 

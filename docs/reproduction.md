@@ -1,6 +1,6 @@
 # Reproduction status
 
-This repository implements the BPDAF method described in the manuscript. It does not contain the original experimental source tree, and no nuScenes or KITTI detection scores have been regenerated with this release. Unit tests and synthetic optimization validate properties of the module; they do not reproduce a trained detector.
+This repository implements the BPDAF method described in the manuscript. The repository maintainer reports completing nuScenes and KITTI reproduction with results matching the manuscript. This report is separate from the package's CPU tests and synthetic optimization checks. The public repository does not contain the original experimental source tree or the full reproduction artifacts listed below.
 
 ## Available in this release
 
@@ -36,9 +36,9 @@ The following values describe the manuscript's experiments. Listing them does no
 
 The manuscript reports Python 3.10.8, PyTorch 2.1.2, TorchVision 0.16.2, CUDA 11.8, cuDNN 8.7, MMEngine 0.10.7, and OpenCV 4.11.0. These values do not identify every detector dependency or its source revision.
 
-## Artifacts still required for a benchmark reproduction
+## Reproduction artifacts not included in this release
 
-| Missing artifact | Why it matters |
+| Artifact not included | Why it matters |
 | --- | --- |
 | Original detector repository and exact commit | BEVFusion implementations and checkpoint formats differ |
 | Complete nuScenes and KITTI configurations | Encoder, head, losses, assignment, augmentations, class mapping, and sampling must match |

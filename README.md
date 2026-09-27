@@ -10,9 +10,9 @@ BPDAF adds a distance- and feature-energy-conditioned residual to aligned camera
 
 ## Release scope
 
-This repository provides a PyTorch reimplementation of BPDAF, including the fusion module, tests, a synthetic training example, and an optional detector-integration adapter. It is not the original code used to obtain the manuscript's experimental results. No new nuScenes or KITTI benchmark reproduction is claimed.
+This repository provides a PyTorch reimplementation of BPDAF, including the fusion module, tests, a synthetic training example, and an optional detector-integration adapter. It is not the original code used to obtain the manuscript's experimental results. The repository maintainer reports completing nuScenes and KITTI reproduction with results matching the manuscript; see [the validation record](docs/validation.md).
 
-The release does not include a complete detector, dataset files, pretrained checkpoints, or the complete experiment configurations. The known reproduction gaps are recorded in [docs/reproduction.md](docs/reproduction.md). The core package needs only PyTorch; CUDA extensions and a detector framework are not required for its unit tests.
+The release does not include a complete detector, dataset files, pretrained checkpoints, or the complete experiment configurations. The scope of the published artifacts is recorded in [docs/reproduction.md](docs/reproduction.md). The core package needs only PyTorch; CUDA extensions and a detector framework are not required for its unit tests.
 
 ## Installation
 

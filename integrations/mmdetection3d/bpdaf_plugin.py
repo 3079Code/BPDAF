@@ -2,8 +2,8 @@
 
 Target: open-mmlab/mmdetection3d at
 fe25f7a51d36e3702f961e198894580d83c4387b, projects/BEVFusion.
-The target has been inspected statically; full detector training and evaluation
-have not been run for this new implementation.
+The target has been inspected statically. See docs/validation.md for module
+tests and maintainer-reported dataset reproduction.
 """
 
 from collections.abc import Sequence

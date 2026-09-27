@@ -10,7 +10,17 @@ Python 3.10.11 and PyTorch 2.11.0+cpu on Windows. No CUDA device was available.
 | Synthetic optimizer example | Five finite optimizer steps; initial reference output exactly equal |
 | Synthetic checkpoint round trip | Reloaded output exactly equal |
 | Source and wheel distributions | Both built successfully |
-| Full detector training / dataset evaluation | Not run |
+
+## Maintainer-reported dataset reproduction
+
+The repository maintainer reports that nuScenes and KITTI reproduction has
+been completed and that the results match the manuscript. This status is
+based on the maintainer's confirmation, not on the CPU checks above. The
+corresponding run logs, checkpoints, full configurations, and tested commit
+mapping are not included in this release, so this record does not constitute
+an independent verification of the dataset results.
+
+## Running the local checks
 
 Reproduce the local checks from the repository root:
 
