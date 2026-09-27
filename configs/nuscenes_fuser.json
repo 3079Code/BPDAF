@@ -1,0 +1,14 @@
+{
+  "in_channels": [80, 256],
+  "out_channels": 256,
+  "bev_range": [-54.0, -54.0, 54.0, 54.0],
+  "num_frequencies": 4,
+  "gate_hidden_channels": 32,
+  "energy_eps": 0.000001,
+  "energy_clip": 5.0,
+  "include_distance": true,
+  "include_energy": true,
+  "detach_energy": true,
+  "gate_mode": "softmax",
+  "zero_init_residual": true
+}

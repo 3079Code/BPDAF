@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: >-
+  If you use this paper-guided implementation, cite the associated manuscript.
+  Its confirmed title and authors are listed below. Publication metadata will
+  be added when available.
+type: software
+title: "BPDAF: Paper-guided PyTorch implementation"
+version: 0.1.0
+repository-code: "https://github.com/3079Code/BPDAF"
+license: MIT
+authors:
+  - family-names: Yang
+    given-names: Jiaxin
+  - family-names: Li
+    given-names: Yongbiao
+  - family-names: Cao
+    given-names: Zhanlin
+  - family-names: Chen
+    given-names: Long
+  - family-names: Wang
+    given-names: Jinglong
+preferred-citation:
+  type: unpublished
+  title: "Baseline-Preserving Distance-Aware Adaptive Fusion for LiDAR-Camera 3D Object Detection"
+  authors:
+    - family-names: Yang
+      given-names: Jiaxin
+    - family-names: Li
+      given-names: Yongbiao
+    - family-names: Cao
+      given-names: Zhanlin
+    - family-names: Chen
+      given-names: Long
+    - family-names: Wang
+      given-names: Jinglong

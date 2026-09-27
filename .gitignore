@@ -1,0 +1,52 @@
+# Python and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+env/
+.tox/
+.nox/
+
+# Datasets, model weights, and experiment output
+data/
+datasets/
+checkpoints/
+outputs/
+runs/
+work_dirs/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.tfevents.*
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Local editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.tmp
+tmp/
+temp/
