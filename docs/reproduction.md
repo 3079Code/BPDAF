@@ -1,6 +1,6 @@
 # Reproduction status
 
-This repository implements BPDAF from the supplied manuscript. It does not contain the original experimental source tree, and no nuScenes or KITTI detection scores have been regenerated with this release. Unit tests and synthetic optimization validate properties of the module; they do not reproduce a trained detector.
+This repository implements the BPDAF method described in the manuscript. It does not contain the original experimental source tree, and no nuScenes or KITTI detection scores have been regenerated with this release. Unit tests and synthetic optimization validate properties of the module; they do not reproduce a trained detector.
 
 ## Available in this release
 
@@ -50,7 +50,7 @@ The manuscript reports Python 3.10.8, PyTorch 2.1.2, TorchVision 0.16.2, CUDA 11
 | Sparsification implementation and retained-point samples | Both detectors must receive exactly the same perturbation |
 | Timing script, warm-up count, and FLOP-count convention | Needed to reproduce cost numbers on matched hardware |
 
-No placeholder URLs or fabricated checkpoints are provided. Dataset files should be obtained from [nuScenes](https://www.nuscenes.org/) and [KITTI](https://www.cvlibs.net/datasets/kitti/) under their respective access terms.
+Model checkpoints are not included in this release. Dataset files should be obtained from [nuScenes](https://www.nuscenes.org/) and [KITTI](https://www.cvlibs.net/datasets/kitti/) under their respective access terms.
 
 ## A defensible reproduction workflow
 

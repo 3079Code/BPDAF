@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: >-
-  If you use this paper-guided implementation, cite the associated manuscript.
+  If you use BPDAF, cite the associated manuscript.
   Its confirmed title and authors are listed below. Publication metadata will
   be added when available.
 type: software
-title: "BPDAF: Paper-guided PyTorch implementation"
+title: "BPDAF: PyTorch implementation"
 version: 0.1.0
 repository-code: "https://github.com/3079Code/BPDAF"
 license: MIT

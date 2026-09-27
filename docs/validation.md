@@ -1,6 +1,6 @@
 # Validation record
 
-Local checks for this fresh implementation were completed on 2026-09-27 with
+Local checks for this implementation were completed on 2026-09-27 with
 Python 3.10.11 and PyTorch 2.11.0+cpu on Windows. No CUDA device was available.
 
 | Check | Result |

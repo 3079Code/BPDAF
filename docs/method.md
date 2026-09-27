@@ -1,6 +1,6 @@
 # Method and implementation contract
 
-This document records the module described in Sections 3.1–3.5 of the supplied BPDAF manuscript. The implementation is newly written from that description. Detector-specific preprocessing, encoders, heads, and losses are outside the standalone package.
+This document describes the implementation of the BPDAF module in Sections 3.1–3.5 of the manuscript. Detector-specific preprocessing, encoders, heads, and losses are outside the standalone package.
 
 ## Inputs and coordinate convention
 

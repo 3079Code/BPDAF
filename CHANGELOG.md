@@ -2,7 +2,7 @@
 
 ## 0.1.0 — Unreleased
 
-- Fresh standalone PyTorch implementation of the manuscript's BPDAF fusion mechanism.
+- Standalone PyTorch implementation of the manuscript's BPDAF fusion mechanism.
 - Distance-energy context, complementary modality weights, and zero-output residual initialization.
 - Reference-fuser copying and explicit detector-integration guidance.
 - Tests, a synthetic training example, and CPU CI configuration.
