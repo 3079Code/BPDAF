@@ -12,6 +12,7 @@ This repository implements the BPDAF method described in the manuscript. The rep
 | Synthetic example | Small forward/backward optimization run |
 | Optional integration adapter | A starting point for a compatible external detector; see its documented limits |
 | CPU CI definition | Package lint, tests, example, and build on two specified environments |
+| Reported result tables | Final manuscript values collected in [results.md](results.md) |
 
 ## Settings recoverable from the manuscript
 

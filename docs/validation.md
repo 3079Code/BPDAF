@@ -20,6 +20,10 @@ corresponding run logs, checkpoints, full configurations, and tested commit
 mapping are not included in this release, so this record does not constitute
 an independent verification of the dataset results.
 
+The final numerical tables reported in the manuscript are collected in
+[results.md](results.md). They are provided as a compact result record rather
+than as raw training or evaluation logs.
+
 ## Running the local checks
 
 Reproduce the local checks from the repository root:

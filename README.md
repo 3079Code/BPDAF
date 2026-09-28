@@ -4,7 +4,7 @@
 
 JiaxinYang, Yongbiao Li, Zhanlin Cao, Long Chen, and Jinglong Wang
 
-[中文说明](README.zh-CN.md) · [Method](docs/method.md) · [Integration](docs/integration.md) · [Validation](docs/validation.md) · [Reproduction status](docs/reproduction.md)
+[中文说明](README.zh-CN.md) · [Method](docs/method.md) · [Integration](docs/integration.md) · [Reported results](docs/results.md) · [Validation](docs/validation.md) · [Reproduction status](docs/reproduction.md)
 
 BPDAF adds a distance- and feature-energy-conditioned residual to aligned camera and LiDAR bird's-eye-view (BEV) features. The retained convolutional fusion path remains trainable. A zero-initialized residual output convolution makes the initial fused output equal to that of the reference path.
 
@@ -99,6 +99,7 @@ examples/              Synthetic usage and training example
 integrations/          Optional detector adapter
 docs/method.md         Equations and implementation contract
 docs/integration.md    Detector and checkpoint integration
+docs/results.md        Final result tables reported in the manuscript
 docs/reproduction.md   Experimental settings and missing artifacts
 .github/workflows/     CPU continuous integration
 CITATION.cff           Software and manuscript citation metadata

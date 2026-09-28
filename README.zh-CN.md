@@ -4,7 +4,7 @@
 
 作者：JiaxinYang、Yongbiao Li、Zhanlin Cao、Long Chen、Jinglong Wang
 
-[English](README.md) · [方法说明](docs/method.md) · [接入说明](docs/integration.md) · [测试记录](docs/validation.md) · [复现状态](docs/reproduction.md)
+[English](README.md) · [方法说明](docs/method.md) · [接入说明](docs/integration.md) · [论文结果表](docs/results.md) · [测试记录](docs/validation.md) · [复现状态](docs/reproduction.md)
 
 BPDAF 在已经对齐的相机与激光雷达 BEV 特征上，保留原卷积融合路径，并增加由距离和特征能量共同引导的自适应残差分支。残差输出卷积采用零初始化，因此模块初始输出与原融合路径一致。训练过程中，两条路径均可更新。
 
